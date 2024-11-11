@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <article class="article">
+      <header class="header">
+        <div class="container">
+          <nav class="nav">
+            <a href="#" class="logo">
+              <img
+                src="./assets/image/logo.png"
+                alt="logo image"
+                loading="lazy"
+              />
+            </a>
+            <ul class="nav-menu">
+              <li class="menu_item">
+                <a href="#">Home</a>
+              </li>
+              <li class="menu_item">
+                <a href="#">Products</a>
+              </li>
+              <li class="menu_item">
+                <a href="#">About Us</a>
+              </li>
+              <li class="menu_item">
+                <a href="#">Contact Us</a>
+              </li>
+            </ul>
+            <div class="icons">
+              <div class="profile">
+                <img src="./assets/image/Profile.png" alt="profile image" />
+              </div>
+              <div class="cart">
+                <img src="./assets/svg/cart.svg" alt="cart image" />
+              </div>
+              <div class="menu">
+                <div class="menu-line"></div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <section class="banner">
+        <div class="container">
+          <div class="banner-content">
+            <h2>Get Your Best Cosmetic Products Here</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              quod cum, corporis, perspiciatis praesentium dolorum
+              necessitatibus ipsam ipsa sint dolorem sed.
+            </p>
+            <form class="search-form">
+              <input
+                class="search-form--input"
+                type="text"
+                placeholder="Search..."
+              />
+              <button type="submit" class="search-form--btn">
+                <img src="./assets/svg/search.svg" alt="search image" />
+              </button>
+            </form>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+      </section>
+      <div class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </article>
+    <main>
+      <section class="scroll">
+        <div class="container">
+          <div class="logos">
+            <div class="logos-slide">
+              <img src="./assets/svg/1.svg" />
+              <img src="./assets/svg/2.svg" />
+              <img src="./assets/svg/3.svg" />
+              <img src="./assets/svg/4.svg" />
+              <img src="./assets/svg/5.svg" />
+              <img src="./assets/svg/6.svg" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="product">
+        <div class="container">
+          <div class="product-top">
+            <div class="product-top-content">
+              <h2>Our Popular Product</h2>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy</p>
+            </div>
+            <a  class="product-top-link" href="#">
+              <span>Discover Our Products</span>
+              <img src="./assets/svg/product.svg" alt="product icon">
+            </a>
+          </div> 
+          <div class="product-bottom">
+            <div class="card2">
+              <img src="./assets/image/vv.jpg" alt="product-image">
+              <div class="card-content">
+                <h2>Cosmetic Products</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aspernatur
+                  odio quos fuga delectus sed sequi accusamus totam error. </p>
+                  <div class="card-content-action">
+                    <div class="card-content-button">
+                      <button class="btn">Buy Now</button>
+                      <button class="btn btn-border2">Add To Cart</button>
+                    </div>
+                    <span>120 $</span>
+                  </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/image/ww.png" alt="product-image">
+              <div class="card-content">
+                <h2>Cosmetic Products</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aspernatur
+                  odio quos fuga delectus sed sequi accusamus totam error. </p>
+                  <div class="card-content-action">
+                    <div class="card-content-button">
+                      <button class="btn">Buy Now</button>
+                      <button class="btn btn-border">Add To Cart</button>
+                    </div>
+                    <span>120 $</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>  
+    </main> 
+   
+   <script>
+      var copy = document.querySelector(".logos-slide").cloneNode(true);
+      document.querySelector(".logos").appendChild(copy);
+    </script>
+
+  </body>
+</html>

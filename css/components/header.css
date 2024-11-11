@@ -1,0 +1,88 @@
+.article{
+background-color: rgb(243, 241, 243);
+}
+
+.header{
+    padding: 40px 0;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+.menu_item a{
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: black;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+.profile{
+    width: 24px;
+    height: 24px;
+}
+.profile img{
+    width: 100%;
+    height: 100%;
+}
+
+.cart{
+    width: 24px;
+    height: 24px;
+}
+.cart img{
+width: 100%;
+height: 100%;
+}
+.menu{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.burger {
+    cursor: pointer;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+    margin: 20px;
+    background-color: red;
+}
+
+.menu-icon{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+width: 30px;
+height: 22px;
+cursor: pointer;
+position: fixed;
+top: 38px;
+right: 38px;
+z-index: 1000;
+}
+.menu-icon span{
+display: block;
+height: 4px;
+width: 100%;
+background-color: #3b3939;
+border-radius: 2px;
+}
+
